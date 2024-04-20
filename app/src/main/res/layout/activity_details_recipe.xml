@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/green_light"
+    android:backgroundTint="@color/green_light"
+    tools:context=".DetailsRecipe">
+
+
+    <TextView
+        android:id="@+id/recipe_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:text="Tilte"
+        android:padding="16dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp" android:layout_gravity="center"
+        app:cardElevation="8dp">
+
+        <ImageView
+            android:id="@+id/recipe_image"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@color/rose_light"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/recipes_widget" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="493dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/calories_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:text="Calories"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recipe_calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:text="150cal"
+                android:textColor="@color/rose"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/time_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:text="Time to Prepare"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recipe_preparation_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:text="time to prepare"
+                android:textColor="@color/rose"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <mpdam.iset.recipesproject.DynamicBackgroundView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ingredients_card_view"
+            android:layout_width="wrap_content"
+            android:layout_height="284dp"
+            android:layout_margin="16dp"
+            app:cardBackgroundColor="@color/green_light"
+            app:cardCornerRadius="8dp">
+
+
+
+            <LinearLayout
+                android:layout_width="347dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="@color/green"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="196dp">
+
+                    <TextView
+                        android:id="@+id/ingredients_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/rose_LightHigh"
+                        android:textSize="20sp" />
+
+                </ScrollView>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

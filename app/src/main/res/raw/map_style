@@ -1,0 +1,30 @@
+[
+  {
+    "featureType": "all",
+    "elementType": "all",
+    "stylers": [
+      { "saturation": -100 }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },
+  {
+    "featureType": "landscape",
+    "elementType": "all",
+    "stylers": [
+      { "color": "#F3FDE8" }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "all",
+    "stylers": [
+      { "color": "#A8DF8E" }
+    ]
+  }
+]

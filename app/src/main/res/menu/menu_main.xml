@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ES"
+        android:title="Spanish"
+        android:icon="@drawable/spain"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/FR"
+        android:title="French"
+
+        android:icon="@drawable/french"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/IT"
+        android:title="Italien"
+
+        android:icon="@drawable/flag_italy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/DE"
+        android:title="German"
+
+        android:icon="@drawable/german"
+        app:showAsAction="never" />
+</menu>

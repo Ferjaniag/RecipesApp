@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="healthy_food"> Healthy Food </string>
+    <string name="search_restaurant"> Search for a restaurant </string>
+    <string name="dessert"> Desserts </string>
+    <string name="fragment_title_hf"> Some Healthy food recipes </string>
+    <string name="fragment_title_de"> Some desserts recipes </string>
+</resources>

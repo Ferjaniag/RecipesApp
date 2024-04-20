@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.RecipesProject.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.RecipesProject.AppWidgetContainer">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/appWidgetImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/recipes_widget"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/buttonWidget"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:clickable="true"
+      android:layout_gravity="center"
+        android:text="Recipes" android:textSize="34sp"
+        android:textColor="@color/green_light"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#A8DF8E</color>
+    <color name="green_LightHight">#4CAF50</color>
+    <color name="green_light">#F3FDE8</color>
+    <color name="green_light_LightHigh">#C4E1A3</color>
+
+<color name="gr"> #C6EBC5 </color>
+    <color name="gr2"> #A1C398</color>
+    <color name="rose_light">#FFE5E5</color>
+    <color name="rose_light_LightHigh">#F1A5A5</color>
+    <color name="rose">#FFBFBF</color>
+    <color name="rose_LightHigh">#DC5151</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

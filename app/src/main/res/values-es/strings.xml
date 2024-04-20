@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recetas</string>
+    <string name="app_widget_description">Esta es una descripción del widget de la aplicación</string>
+    <string name="healthy_food">Comida saludable</string>
+    <string name="search_restaurant">Buscar un restaurante</string>
+    <string name="dessert">Postres</string>
+    <string name="fragment_title_hf">Algunas recetas de comida saludable</string>
+    <string name="fragment_title_de">Algunas recetas de postres</string>
+
+</resources>
